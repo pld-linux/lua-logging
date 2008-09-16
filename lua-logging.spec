@@ -20,14 +20,15 @@ LuaLogging egy egyszerű API-t biztosít naplózó funkciókhoz Lua-ban.
 
 %prep
 %setup -q -n lualogging-%{version}
-sed -i "s|PREFIX =.*|PREFIX =$RPM_BUILD_ROOT%{_prefix}|" Makefile
 
 %build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_libdir}/lua/5.1
-%{__make} install
+%{__make} install \
+    PREFIX=$RPM_BUILD_ROOT%{_prefix}
+
 
 %clean
 rm -rf $RPM_BUILD_ROOT
