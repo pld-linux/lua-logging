@@ -1,3 +1,5 @@
+# TODO
+# - noarch pkg?
 Summary:	LuaLogging provides a simple API to use logging features in Lua
 Summary(hu.UTF-8):	LuaLogging egy egyszerű API-t biztosít naplózó funkciókhoz Lua-ban.
 Name:		lua-logging
