@@ -1,7 +1,8 @@
 # TODO
 # - noarch pkg?
 Summary:	LuaLogging provides a simple API to use logging features in Lua
-Summary(hu.UTF-8):	LuaLogging egy egyszerű API-t biztosít naplózó funkciókhoz Lua-ban.
+Summary(hu.UTF-8):	LuaLogging egy egyszerű API-t biztosít naplózó funkciókhoz Lua-ban
+Summary(pl.UTF-8):	Łatwa w użyciu biblioteka LUA do generowania logów
 Name:		lua-logging
 Version:	1.1.4
 Release:	1
@@ -18,6 +19,10 @@ LuaLogging provides a simple API to use logging features in Lua.
 
 %description -l hu.UTF-8
 LuaLogging egy egyszerű API-t biztosít naplózó funkciókhoz Lua-ban.
+
+%description -l pl.UTF-8
+LuaLogging to biblioteka w jeżyku Lua dostarczająca łatwe
+w użyciu API do generowania logów.
 
 %prep
 %setup -q -n lualogging-%{version}
