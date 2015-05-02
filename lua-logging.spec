@@ -5,7 +5,7 @@ Summary(hu.UTF-8):	LuaLogging egy egyszerű API-t biztosít naplózó funkciókh
 Summary(pl.UTF-8):	Łatwa w użyciu biblioteka LUA do generowania logów
 Name:		lua-logging
 Version:	1.1.4
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Development/Languages
 Source0:	http://luaforge.net/frs/download.php/2693/lualogging-%{version}.tar.gz
